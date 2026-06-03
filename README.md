@@ -113,5 +113,3 @@ Isso significa que o código pode ser utilizado, modificado e distribuído livre
 
 Bruno Vinícius Santos  
 Engenharia de Computação — INATEL
-
-não faça nada, estou apenas salvando
