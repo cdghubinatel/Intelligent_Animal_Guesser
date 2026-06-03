@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA Descobridora - Animais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🐾 IA Descobridora</h1>
+
+    <p class="subtitle">
+        Pense em um animal e deixe a IA tentar descobrir.
+    </p>
+
+    <div class="contador">
+        <span>Animais restantes</span>
+        <h2 id="contador">0</h2>
+    </div>
+
+    <div class="card">
+        <h2 id="pergunta"></h2>
+    </div>
+
+    <div class="botoes" id="botoesPergunta">
+        <button onclick="responder(true)">Sim</button>
+        <button onclick="responder(false)">Não</button>
+    </div>
+
+    <div id="resultado"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
