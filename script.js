@@ -98,21 +98,35 @@ let perguntas = [
     chave: "temJuba",
     texto: "O animal tem juba?"
   },
+  
   {
     chave: "temListras",
     texto: "O animal tem listras?"
   },
+  
   {
     chave: "temManchas",
     texto: "O animal tem manchas?"
   },
+  
   {
     chave: "temCaudaPreensil",
     texto: "O animal tem cauda preênsil?"
   },
+  
   {
     chave: "ouveUivar",
     texto: "O animal uiva?"
+  },
+  
+  {
+    chave: "orelhaGrande",
+    texto: "O animal tem orelhas grandes?"
+  },
+
+  {
+    chave: "roedor",
+    texto: "O animal é um roedor?"
   }
 ];
 
@@ -263,7 +277,9 @@ const animaisIniciais = [
     temEscamas: false,
     fazSom: true,
     inteligente: true,
-    selvagem: false
+    selvagem: false,
+    orelhaGrande: true,
+    roedor: false
   },
   {
     nome: "Porco",
@@ -563,7 +579,9 @@ const animaisIniciais = [
     temEscamas: false,
     fazSom: true,
     inteligente: true,
-    selvagem: false
+    selvagem: false,
+    orelhaGrande: false,
+    roedor: true
   },
   {
     nome: "Girafa",
